@@ -1,0 +1,51 @@
+<h1 class="title">Countries</h1>
+
+<div class="table">
+	<table mat-table [dataSource]="countries$"
+	matSort matSortActive="name" matSortDisableClear matSortDirection="desc">
+		
+		<ng-container matColumnDef="name">
+			<th mat-header-cell *matHeaderCellDef>name</th>
+			<td mat-cell *matCellDef="let country">{{ country.name.common }}</td>
+		</ng-container>
+
+		<ng-container matColumnDef="capital">
+			<th mat-header-cell *matHeaderCellDef>capital</th>
+			<td mat-cell *matCellDef="let country">{{ country.capital }}</td>
+		</ng-container>
+
+		<ng-container matColumnDef="region">
+			<th mat-header-cell *matHeaderCellDef>region</th>
+			<td mat-cell *matCellDef="let country">{{ country.region }}</td>
+		</ng-container>
+
+		<ng-container matColumnDef="subRegion">
+			<th mat-header-cell *matHeaderCellDef>subRegion</th>
+			<td mat-cell *matCellDef="let country">{{ country.subRegion }}</td>
+		</ng-container>
+
+		<ng-container matColumnDef="population">
+			<th mat-header-cell *matHeaderCellDef>population</th>
+			<td mat-cell *matCellDef="let country">{{ country.population }}</td>
+		</ng-container>
+
+		<ng-container matColumnDef=">">
+			<th mat-header-cell *matHeaderCellDef></th>
+			<td mat-cell *matCellDef="let country">
+				<button mat-flat-button class="moreBtn" (click)="onButtonClick(country)">
+					<div class="details">
+						<p >Details</p>
+						<mat-icon  aria-label="back" fontIcon="keyboard_arrow_right"></mat-icon>
+					</div>					
+				</button>
+				<!-- <button mat-button class="moreBtn" (click)="onButtonClick(country)">
+					details ->
+				</button> -->
+			</td>
+		</ng-container>
+
+		<tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+		<tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
+	</table>
+	<mat-paginator [length]="250" [pageSize]="30" aria-label="Select page of GitHub search results"></mat-paginator>
+</div>

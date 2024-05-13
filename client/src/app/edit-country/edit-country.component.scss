@@ -1,0 +1,99 @@
+label {
+	font-weight: bold;
+}
+
+input[type='text'] {
+	width: 200px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+button {
+	cursor: pointer;
+  // background-color: #007bff;
+  // color: #007bff;
+}
+.countryCard {
+	width: 500px; /* Adjust the width as needed */
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	// border-radius: 2px bold blue;
+	// background-color: lightblue;
+	// width: 100%;
+	// height: 70%;
+	// margin: 10%;
+	// display: flex;
+	// flex-direction: column;
+	// flex-wrap: wrap;
+	// align-content: space-between;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: space-around;
+  text-align: center;
+	// padding: 10%;
+}
+.cardBody {
+	padding: 20px;
+}
+
+// .region {
+// 	display: flex;
+// 	align-content: space-around;
+// }
+
+.flag {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-form {
+	min-width: 150px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.example-full-width {
+	width: 100%;
+}
+
+.card {
+	width: 300px; /* Adjust the width as needed */
+	border: 1px solid #ccc;
+	border-radius: 8px;
+  // box-shadow: blue 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+}
+
+.card-header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.arrowIcon {
+  width: 20px;
+  display:flex;
+  cursor: pointer;
+}
+
+.backButton {
+
+}

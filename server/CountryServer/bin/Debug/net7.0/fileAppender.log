@@ -10,3 +10,4 @@
 =4timestamp [9] INFO  serverExercise.Controllers.CountryController (null) - succeeded to get all countries
 =4timestamp [6] INFO  serverExercise.Controllers.CountryController (null) - succeeded to get all countries
 =4timestamp [19] INFO  serverExercise.Controllers.CountryController (null) - succeeded to get all countries
+=4timestamp [19] INFO  serverExercise.Controllers.CountryController (null) - succeeded to get all countries

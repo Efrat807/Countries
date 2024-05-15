@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { Observable, catchError, map, merge, startWith, switchMap } from 'rxjs';
+import { Observable } from 'rxjs';
 import { ICountry } from '../shared/models/countries.interface';
 import { Store } from '@ngrx/store';
 import * as CountryActions from '../states/country/country.action';

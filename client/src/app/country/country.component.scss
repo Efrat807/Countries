@@ -1,8 +1,23 @@
+.header {
+background-image: url('../../assets/globe.jpg');
+height: 100px;
+background-position: center;
+background-size: 50% 100%;
+margin-bottom: 3%;
+display: flex;
+justify-content: center;
+justify-items: center;
+flex-direction: column-reverse
+}
 
 .title {
   text-align: center;
-  margin-top: 100px;
-  color: #0056b3;
+  // margin-top: 100px;
+  color: rgb(77, 76, 76);
+  font-weight: bold;
+  font-size: 60px;
+  // position: relative;
+  // padding-top: 50%
 }
 .table {
 	width: 80%;

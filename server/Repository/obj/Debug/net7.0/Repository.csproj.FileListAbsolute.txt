@@ -10,3 +10,15 @@ C:\Users\User\server\Repository\obj\Debug\net7.0\Repository.dll
 C:\Users\User\server\Repository\obj\Debug\net7.0\refint\Repository.dll
 C:\Users\User\server\Repository\obj\Debug\net7.0\Repository.pdb
 C:\Users\User\server\Repository\obj\Debug\net7.0\ref\Repository.dll
+C:\Users\User\Countries\server\Repository\bin\Debug\net7.0\Repository.deps.json
+C:\Users\User\Countries\server\Repository\bin\Debug\net7.0\Repository.dll
+C:\Users\User\Countries\server\Repository\bin\Debug\net7.0\Repository.pdb
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.dll
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\refint\Repository.dll
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\Repository.pdb
+C:\Users\User\Countries\server\Repository\obj\Debug\net7.0\ref\Repository.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LSVRJRd4jHJXWh9BJYTITDnHrSg/Lrnm2sBtgrP9phkyn71KEYpwAa/CWOr9S/xbh0NFrrHINe9yP7nbnocQaA==",
+  "dgSpecHash": "1NBWxT7w9PhRT2cOkQGmP/FM6ELjLIRs7F3XgulYUOsIWc2x4pBtYs2mZVzcb8g0PEYyxbjSP0xmcaoyZQuUPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Countries\\server\\CountryServer\\server.csproj",
   "expectedPackageFiles": [
@@ -32,11 +32,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": []
 }

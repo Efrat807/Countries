@@ -12,8 +12,6 @@ import {
 	Validators,
 } from '@angular/forms';
 import { CountryApiService } from '../shared/services/CountryApi.service';
-import * as CountryActions from '../states/country/country.action';
-import { HttpClient, HttpParams } from '@angular/common/http';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
@@ -48,18 +46,15 @@ export class EditCountryComponent implements OnInit {
 		private fb: FormBuilder,
 		private router: Router
 	) {
-		this.store.dispatch(CountryActions.loadCountry());
 		this.countries$ = this.store.select(CountrySelector.selectAllCountries);
 	}
 
 	ngOnInit(): void {
-		// this.form.get['region'].disable();
 		this.id = this.route.snapshot.paramMap.get('id');
 		this.country$ = this.countries$.pipe(
 			map((countries) => countries.find((country) => country.id === this.id)),
 			switchMap((country) => (country ? of(country) : of(undefined)))
 		);
-		this.country$.subscribe((country) => console.log(country?.name.official));
 		this.country$.subscribe(
 			(country) =>
 				(this.form = this.fb.group({
@@ -91,8 +86,6 @@ export class EditCountryComponent implements OnInit {
 				population: +formValues.population || 0,
 				flags: formValues.flags,
 			};
-			console.log(updatedCountry);
-
 			this.api
 				.putCountries(updatedCountry)
 				.subscribe(() => this.router.navigate(['/']));

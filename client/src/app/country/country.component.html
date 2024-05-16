@@ -1,8 +1,12 @@
 <div class="header">
 	<h1 class="title">Countries</h1>
 </div>
-
-<div class="table">
+@if (error$ | async) {
+	
+	<p style="color: red; font-size: large;">{{error$| async}}</p>
+}
+@else {
+	<div class="table">
 	<table mat-table [dataSource]="countries$" >
 		
 		<ng-container matColumnDef="name">
@@ -47,4 +51,6 @@
 		<tr mat-row *matRowDef="let myRowData; columns: columnsToDisplay"></tr>
 	</table>
 </div>
+} 
+
 

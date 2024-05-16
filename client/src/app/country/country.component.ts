@@ -37,6 +37,7 @@ export class CountryComponent {
 		'>',
 	];
 	countries: ICountry[] | undefined;
+	error$!: Observable<string | null>;
 
 	constructor(private store: Store, private router: Router) {
 		this.store.dispatch(CountryActions.loadCountry());
@@ -44,6 +45,9 @@ export class CountryComponent {
 		this.countries$.subscribe(
 			(emittedCountries: ICountry[]) => (this.countries = emittedCountries)
 		);
+		this.error$ = this.store.select(CountrySelector.selectCountryFail);
+		console.log(this.error$);
+		
 	}
 
 	onButtonClick(country: ICountry) {

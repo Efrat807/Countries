@@ -19,7 +19,7 @@ export class CountryEffect {
 					catchError((error: { message: string }) =>
 						of(
 							CountryActions.loadCountryFailed({
-								errorMessage: error + ': fail to load countries',
+								errorMessage: `fail to load countries. ------------> ${error.message}`,
 							})
 						)
 					)
